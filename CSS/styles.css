@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+body {
+    /* 文字サイズを変更する */
+       font-size: 16px;
+
+    /* フォントの種類を指定する */
+    font-family: monospace; 
+    }
+
+    span{
+        text-align: justify;
+    }
+
+    h1 { 
+        font-size: 64px;
+     
+        /* 要素の背景色を指定する */
+        background-color: greenyellow;
+
+        text-align: center;
+     } 
+
+     .message{
+        font-size: 20px;
+     }
+
+     h3 { 
+        font-size: 40px;
+        color: rgb(104, 156, 26);
+     } 
+
+     dt { 
+        font-size: 30px;    
+        color: rgb(255, 164, 7); 
+     } 
+
+
+    dd {
+        display: none; 
+        font-size: 40px;     
+     } 
+
+
+     dl {
+        text-align: center;
+      }
+
+     .graphcolor{
+        background-color: greenyellow;
+     }
+
+     .container {
+        /* 子要素をフレックスボックスにする */
+        display: flex;
+        /* フレックスボックスを並べる方向 */
+        flex-flow: row; 
+
+    }
+    
+    main {
+        margin: 0 10px;
+        background-color: rgb(226, 247, 195);
+        /* フレックスボックス同士のサイズの割合 */
+        flex: 1;
+        order: 1;
+        border:2px solid rgb(193, 246, 114);
+    }
+    
+    aside {
+        margin: 0 10px;
+        background-color: rgb(226, 247, 195);
+        /* フレックスボックス同士のサイズの割合と最小値 */
+        flex: 1 50px;
+        order: 1;
+        border:2px solid rgb(193, 246, 114);
+    }
+
+    img{
+        display: block;
+        margin: 0px auto;
+       }
+
+
+    input[type="submit"] {
+        border: 1px solid royalblue;
+        border-radius: 4px;
+        background: linear-gradient(0deg, #0086f9, #b6d6f7);
+    }
+    
+    input[type="reset"] {
+        border: 1px solid royalblue;
+        border-radius: 4px;
+    
+        background: linear-gradient(45deg, #0086f9, #b6d6f7);
+    }
+    
+    input[type="button"] {
+        border: 1px solid royalblue;
+        border-radius: 4px;
+    
+        background: linear-gradient(90deg, #0086f9, #b6d6f7);
+    }
+
+    
+    
+     
